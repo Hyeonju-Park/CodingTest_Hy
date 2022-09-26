@@ -39,14 +39,14 @@ class FibonacciSo{
         int answer = 0;
         int[] arr= new int[n+1];
         
-        if(n>=2 && n<=100000) {
-        	for(int i = 2; i <= n; i++ ) {
-        		arr[0]=0;
-        		arr[1]=1;
-        		arr[i]=arr[i-1]+arr[i-2];
-        		answer = (arr[i]%1234567);
-        	}	
-        }
+       
+        for(int i = 2; i <= n; i++ ) {
+        	arr[0]=0;
+        	arr[1]=1;
+        	arr[i]=arr[i-1]+arr[i-2];
+        	answer = (arr[i]%1234567);
+        }	
+        
         
 
         return answer;
