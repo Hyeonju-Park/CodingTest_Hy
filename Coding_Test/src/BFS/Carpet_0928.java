@@ -23,10 +23,12 @@ brown	yellow	return
 
 package BFS;
 
-import java.util.Iterator;
 
 public class Carpet_0928 {
-
+	public static void main(String[] args) {
+		Solution s = new Solution();
+		s.solution(24, 24);
+	}
 }
 class Solution {
 	public int[] solution(int brown, int yellow) {
