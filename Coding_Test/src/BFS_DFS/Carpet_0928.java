@@ -21,7 +21,7 @@ brown	yellow	return
 ※ 공지 - 2020년 2월 3일 테스트케이스가 추가되었습니다.
 ※ 공지 - 2020년 5월 11일 웹접근성을 고려하여 빨간색을 노란색으로 수정하였습니다.*/
 
-package BFS;
+package BFS_DFS;
 
 
 public class Carpet_0928 {
